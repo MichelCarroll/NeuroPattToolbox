@@ -296,6 +296,7 @@ idx1 = linspace(1,n,size(baseMap,1));
 idx2 = 1:1:n;
 warning off
 map = interp1(idx1,baseMap,idx2,'cubic');
+map = min(map, 1);
 warning on
 
 % Clean up dirty zeros

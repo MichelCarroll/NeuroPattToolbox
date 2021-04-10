@@ -124,7 +124,7 @@ for imode=1:nmodeplot
         ylabel('Component score')
     end
 end
-suptitle('Top SVD modes')
+sgtitle('Top SVD modes')
 
 %% OPTIONAL: Also plot trajectory of top 3 modes
 % figure
